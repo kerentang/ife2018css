@@ -1,0 +1,71 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.hd {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    position: relative;
+    overflow: auto;
+}
+.hd .h2box{
+    position: relative;
+    overflow: auto;
+    height: 100px;
+    width: 200px;
+    margin: 0 auto;
+}
+.hd button {
+    margin-top: 20px;
+    width: 100px;
+    height: 25px;
+}
+.hd h2 {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+}
+.black1, .black2 {
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    transition-property: width;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    /* Firefox 4 */
+    -moz-transition-property:width;
+    -moz-transition-duration:5s;
+    -moz-transition-timing-function:linear;
+    -moz-transition-delay:1s;
+    /* Safari 和 Chrome */
+    -webkit-transition-property:width;
+    -webkit-transition-duration:5s;
+    -webkit-transition-timing-function:linear;
+    -webkit-transition-delay:1s;
+    /* Opera */
+    -o-transition-property:width;
+    -o-transition-duration:5s;
+    -o-transition-timing-function:linear;
+    -o-transition-delay:1s;
+}
+.black1{
+    right:50%;
+    background-color: rgba(255,255,255,0.5);
+}
+.black2{
+    left: 50%;
+    background-color: rgba(255,255,255,0.5);
+}
+#blue {
+    color: #00f;
+}
+#black{
+    color: #333;
+}
+.width{
+    width: 0;
+}
